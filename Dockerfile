@@ -10,4 +10,4 @@ FROM openjdk:17
 # Set the default command to execute
 # when creating a new container
 #CMD ["java", "-jar", "/deployments/"]
-RUN ls /tmp/build/inputs/
+#RUN ls /tmp/build/inputs/
