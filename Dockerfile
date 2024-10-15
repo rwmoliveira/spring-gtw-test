@@ -2,7 +2,8 @@
 FROM openjdk:17
 
 # Argument to pass in the JAR_FILE
-
+RUN pwd
+RUN ls
 RUN ls /tmp
 
 ARG JAR_FILE=./build-folder/dev-utils-0.0.1-SNAPSHOT.jar
